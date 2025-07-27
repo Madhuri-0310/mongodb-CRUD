@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-mongodb-crud",
+  "version": "1.0.0",
+  "description": "Simple Node.js + MongoDB CRUD App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Thota Sai Madhuri",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongodb": "^6.18.0",
+    "mongoose": "^6.2.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
