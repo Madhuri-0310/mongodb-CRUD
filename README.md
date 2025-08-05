@@ -41,16 +41,19 @@ Edit
    ```bash
    git clone https://github.com/Madhuri-0310/mongodb-CRUD.git
    cd mongodb-CRUD
-    **Install dependencies:**
+
+   
+2. Install dependencies:**
       npm install
-   ** Create a .env file and add your MongoDB connection string:**
+   
+3. Create a .env file and add your MongoDB connection string:
       MONGODB_URI=your_mongodb_connection_string
       PORT=3000
-  **  Start the application:**
+4. Start the application:
       node app.js
       or using nodemon:
       npm run dev
-    **Open browser:**
+    Open browser:
     http://localhost:3000
 
 Home Page: Displays list of users
@@ -70,3 +73,4 @@ GitHub: Madhuri-0310
 
 
 ---
+
